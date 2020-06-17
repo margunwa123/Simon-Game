@@ -43,7 +43,7 @@ function nextLevel() {
     setTimeout(() => {
       $(`#${randomColor}`).fadeIn(100);    
     }, 100);
-  }, 1000);
+  }, 700);
 }
 
 function getRandomColor() {
