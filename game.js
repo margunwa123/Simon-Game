@@ -39,11 +39,11 @@ function nextLevel() {
   answer.push(randomColor)
   setTimeout(() => {
     playAudio(randomColor)
-    $(`#${randomColor}`).addClass("button-answer");
+    $(`#${randomColor}`).fadeOut(100);
     setTimeout(() => {
-      $(`#${randomColor}`).removeClass("button-answer");      
+      $(`#${randomColor}`).fadeIn(100);    
     }, 100);
-  }, 500);
+  }, 1000);
 }
 
 function getRandomColor() {

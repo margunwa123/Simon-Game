@@ -47,10 +47,6 @@ body {
   background-color: yellow;
 }
 
-.button-answer {
-  opacity: 0.5;
-}
-
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
