@@ -37,8 +37,6 @@ function nextLevel() {
   $("#level-title").text("Level " + currentLevel)
   let randomColor = getRandomColor()
   answer.push(randomColor)
-
-  console.log(answer)
   setTimeout(() => {
     playAudio(randomColor)
     $(`#${randomColor}`).addClass("button-answer");
